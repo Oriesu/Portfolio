@@ -4,18 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#111713" />
-    <meta name="description" content="Portfolio. Desarrollo de software, herramientas para Linux, accesibilidad web, aplicaciones, webs corporativas y proyectos colaborativos." />
-    <meta property="og:title" content="Javi — Software, ideas y proyectos" />
-    <meta property="og:description" content="Proyectos de software, webs publicadas y colaboraciones" />
+    <meta name="description" content="Portfolio de Javi (Oriesu): desarrollo de software, aplicaciones móviles, proyectos web, herramientas Linux y accesibilidad. Estudiante de Ingeniería Informática y ADE." />
+    <link rel="canonical" href="https://oriesu.netlify.app/" />
+    <meta property="og:site_name" content="Oriesu" />
+    <meta property="og:title" content="Oriesu — Software Developer | Portfolio" />
+    <meta property="og:description" content="Proyectos de Javi: apps publicadas, desarrollo web, herramientas Linux y accesibilidad." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://oriesu.netlify.app/" />
+    <meta property="og:image" content="https://oriesu.netlify.app/assets/avatar-oriesu.webp" />
+    <meta property="og:image:alt" content="Avatar de Oriesu" />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "Oriesu — Portfolio",
+            "url": "https://oriesu.netlify.app/",
+            "inLanguage": "es"
+          },
+          {
+            "@type": "Person",
+            "name": "Javi",
+            "alternateName": "Oriesu",
+            "url": "https://oriesu.netlify.app/",
+            "description": "Software Developer y estudiante de Ingeniería Informática y Administración y Dirección de Empresas.",
+            "sameAs": [
+              "https://github.com/Oriesu",
+              "https://linktr.ee/Oriesu"
+            ]
+          }
+        ]
+      }
+    </script>
     <link rel="icon" href="assets/avatar-oriesu-favicon.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <noscript><style>.filter-bar { display: none; }</style></noscript>
     <script src="projects.js" defer></script>
     <script src="script.js" defer></script>
-    <title>Oriesu — Portfolio</title>
+    <title>Oriesu — Software Developer | Portfolio</title>
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -127,7 +158,30 @@
             </div>
             <span class="results-count" id="results-count" aria-live="polite">6 proyectos</span>
           </div>
-          <div class="projects-grid" id="projects-grid" aria-live="off"></div>
+          <div class="projects-grid" id="projects-grid" aria-live="off">
+            <!-- portfolio-projects:start -->
+<article class="project-card featured " data-ownership="autor" data-visibility="private" data-kind="software" data-project="a11y"><div class="project-art art-a11y-wrap"><div class="showcase showcase-a11y"><div class="construction-grid" aria-hidden="true"></div>
+         <span class="construction-top"><span class="construction-signal" aria-hidden="true"></span>A11Y / WORK IN PROGRESS</span>
+         <div class="construction-main"><span class="construction-symbol" aria-hidden="true">{ }</span>
+           <strong>EN<br><em>CONSTRUCCIÓN</em></strong><span>Motor de auditoría y remediación de accesibilidad web</span>
+         </div><div class="construction-bottom"><span>ACCESIBILIDAD · CÓDIGO · IA</span><span>PRÓXIMAMENTE / ↗</span></div>
+         <div class="construction-stripes" aria-hidden="true"></div></div><div class="art-watermark">01 / 06</div></div><div class="project-content"><div class="project-overline"><span>01 / ACCESIBILIDAD WEB / I+D</span><span class="project-role">AUTOR</span></div><div class="project-title-row"><h3>a11y-engine</h3></div><span class="project-status">En construcción</span><p>En construcción. Motor para detectar barreras de accesibilidad, relacionar incidencias con su origen y proponer correcciones revisables en el código.</p><div class="project-footer"><div class="project-tags"><span>TypeScript</span><span>Playwright</span><span>WCAG 2.2</span><span>IA</span></div><span class="project-private"><span aria-hidden="true">↗</span> Repositorio privado</span></div></div></article>
+<article class="project-card featured " data-ownership="autor" data-visibility="public" data-kind="software" data-project="uok"><div class="project-art art-keyboard-wrap"><div class="showcase showcase-uok"><img class="project-photo " src="assets/projects/uok.webp" alt="Fotomontaje realista basado en el editor de teclado UrOwnKeyboard" loading="lazy" decoding="async" />
+        <span class="showcase-corner showcase-corner-light">LINUX / XKB + KEYD</span></div><div class="art-watermark">02 / 06</div></div><div class="project-content"><div class="project-overline"><span>02 / LINUX / GESTOR DE TECLADO</span><span class="project-role">AUTOR</span></div><div class="project-title-row"><h3>UrOwnKeyboard</h3></div><p>Gestor de distribuciones de teclado personalizadas para Linux, con editor visual, CLI y perfiles XKB y keyd.</p><div class="project-footer"><div class="project-tags"><span>Python</span><span>Linux</span><span>XKB</span><span>GTK</span></div><a class="project-link" href="https://github.com/Oriesu/UrOwnKeyboard" target="_blank" rel="noopener noreferrer" aria-label="Ver código de UrOwnKeyboard en GitHub"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.03c-3.1.68-3.75-1.32-3.75-1.32-.5-1.29-1.24-1.64-1.64-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.15 1.72 1.15 1 .1.8 2.14 3.08 1.52.2-.73.39-1.23.71-1.52-2.47-.28-5.06-1.24-5.06-5.51 0-1.22.43-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.15A10.8 10.8 0 0 1 12 6.7c.96 0 1.9.13 2.79.38 2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.96.71.78 1.15 1.78 1.15 3 0 4.28-2.6 5.22-5.08 5.5.4.35.76 1.03.76 2.09v2.61c0 .3.2.64.77.53A11.2 11.2 0 0 0 12 .8Z"/></svg><span>Código</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M8 5h11v11"/></svg></a></div></div></article>
+<article class="project-card  " data-ownership="autor" data-visibility="private" data-kind="hybrid" data-project="wombo"><div class="project-art art-wombo-wrap"><div class="showcase showcase-wombo"><div class="wombo-heading"><span>WOMBO COMBO</span><strong>WEB <span>+</span> APP</strong></div>
+        <div class="wombo-web-shot"><span class="wombo-web-header"><span aria-hidden="true">● ● ●</span> wombocombo.netlify.app</span><img class="project-photo " src="assets/projects/wombo-web.webp" alt="Captura real de la versión web de Wombo Combo con los juegos disponibles" loading="lazy" decoding="async" /></div>
+        <div class="wombo-app-shot"><img class="project-photo " src="assets/projects/wombo-app.webp" alt="Captura real de la aplicación móvil de Wombo Combo" loading="lazy" decoding="async" /></div>
+        <span class="wombo-caption">UNA EXPERIENCIA / DOS FORMATOS</span></div><div class="art-watermark">03 / 06</div></div><div class="project-content"><div class="project-overline"><span>03 / JUEGOS / APP Y WEB</span><span class="project-role">AUTOR</span></div><div class="project-title-row"><h3>Wombo Combo</h3></div><p>Juego social para grupos disponible como aplicación móvil y versión web, con varios modos ideales para fiestas.</p><div class="project-footer"><div class="project-tags"><span>Android</span><span>Web</span><span>Juegos sociales</span></div><a class="project-link" href="https://wombocombo.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar la web de Wombo Combo"><span class="external-link-icon">↗</span><span>Visitar web</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M8 5h11v11"/></svg></a></div></div></article>
+<article class="project-card  " data-ownership="autor" data-visibility="private" data-kind="web" data-project="fonycon"><div class="project-art art-fonycon-wrap"><div class="showcase showcase-fonycon"><div class="fonycon-meta"><span>WEB CORPORATIVA</span><strong>fonycon.es <span aria-hidden="true">↗</span></strong></div>
+        <div class="fonycon-screenshot"><img class="project-photo " src="assets/projects/fonycon.webp" alt="Captura original de la web corporativa de Fonycon" loading="lazy" decoding="async" /></div>
+        <div class="fonycon-vertical" aria-hidden="true">DISEÑO & DESARROLLO WEB</div></div><div class="art-watermark">04 / 06</div></div><div class="project-content"><div class="project-overline"><span>04 / WEB CORPORATIVA / PUBLICADA</span><span class="project-role">AUTOR</span></div><div class="project-title-row"><h3>Fonycon</h3></div><p>Web corporativa de una empresa de fontanería y construcción en Granada, con presentación de servicios, trabajos y vías de contacto.</p><div class="project-footer"><div class="project-tags"><span>Web estática</span><span>Diseño web</span><span>Responsive</span><span>Negocios</span></div><a class="project-link" href="https://fonycon.es/" target="_blank" rel="noopener noreferrer" aria-label="Visitar la web de Fonycon"><span class="external-link-icon">↗</span><span>Visitar web</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M8 5h11v11"/></svg></a></div></div></article>
+<article class="project-card  " data-ownership="autor" data-visibility="public" data-kind="software" data-project="dvorak"><div class="project-art art-dvorak-wrap"><div class="showcase showcase-dvorak"><img class="project-photo " src="assets/projects/dvorak.webp" alt="Fotomontaje realista de un teclado Dvorak para programación en español" loading="lazy" decoding="async" />
+        <span class="showcase-corner showcase-corner-light">LAYOUT / ISO ES</span></div><div class="art-watermark">05 / 06</div></div><div class="project-content"><div class="project-overline"><span>05 / PRODUCTIVIDAD / TECLADOS</span><span class="project-role">AUTOR</span></div><div class="project-title-row"><h3>Dvorak para programar</h3></div><p>Distribución de teclado adaptada al español y a la programación, con símbolos técnicos y atajos conservados por posición física.</p><div class="project-footer"><div class="project-tags"><span>XKB</span><span>keyd</span><span>Linux</span><span>Ergonomía</span></div><a class="project-link" href="https://github.com/Oriesu/Dvorak-para-programacion-en-espanol" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Dvorak para programar en GitHub"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.03c-3.1.68-3.75-1.32-3.75-1.32-.5-1.29-1.24-1.64-1.64-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.15 1.72 1.15 1 .1.8 2.14 3.08 1.52.2-.73.39-1.23.71-1.52-2.47-.28-5.06-1.24-5.06-5.51 0-1.22.43-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.15A10.8 10.8 0 0 1 12 6.7c.96 0 1.9.13 2.79.38 2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.96.71.78 1.15 1.78 1.15 3 0 4.28-2.6 5.22-5.08 5.5.4.35.76 1.03.76 2.09v2.61c0 .3.2.64.77.53A11.2 11.2 0 0 0 12 .8Z"/></svg><span>Código</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M8 5h11v11"/></svg></a></div></div></article>
+<article class="project-card  " data-ownership="coautor" data-visibility="public" data-kind="software" data-project="skylbot"><div class="project-art art-bot-wrap"><div class="showcase showcase-skylbot"><div class="skylbot-intro"><span class="skylbot-dot" aria-hidden="true"></span><span>DISCORD / BOT COLABORATIVO</span><strong>SKYLBOT</strong></div>
+        <div class="skylbot-chat"><img class="project-photo " src="assets/projects/skylbot.webp" alt="Captura real de una conversación con Skylbot en Discord: blackjack, saldo y trabajo" loading="lazy" decoding="async" /></div>
+        <div class="skylbot-foot"><span>*blackjack allin</span><span>*balance</span><span>*work</span></div></div><div class="art-watermark">06 / 06</div></div><div class="project-content"><div class="project-overline"><span>06 / BOT / COLABORACIÓN</span><span class="project-role">COAUTOR</span></div><div class="project-title-row"><h3>Skylbot</h3></div><p>Bot colaborativo de Discord con funcionalidades interactivas y dinámicas multijugador, desarrollado junto a otros colaboradores.</p><div class="project-footer"><div class="project-tags"><span>Python</span><span>Discord.py</span><span>API</span><span>Equipo</span></div><a class="project-link" href="https://github.com/nestx0/Skylbot" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Skylbot en GitHub"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.03c-3.1.68-3.75-1.32-3.75-1.32-.5-1.29-1.24-1.64-1.64-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.15 1.72 1.15 1 .1.8 2.14 3.08 1.52.2-.73.39-1.23.71-1.52-2.47-.28-5.06-1.24-5.06-5.51 0-1.22.43-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.15A10.8 10.8 0 0 1 12 6.7c.96 0 1.9.13 2.79.38 2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.96.71.78 1.15 1.78 1.15 3 0 4.28-2.6 5.22-5.08 5.5.4.35.76 1.03.76 2.09v2.61c0 .3.2.64.77.53A11.2 11.2 0 0 0 12 .8Z"/></svg><span>Código</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M8 5h11v11"/></svg></a></div></div></article>
+            <!-- portfolio-projects:end -->
+          </div>
           <p class="privacy-note"><span aria-hidden="true">ⓘ</span> 
             Los repositorios privados no tienen enlace al código; las webs publicadas enlazan al sitio en vivo. Las vistas previas son ilustraciones 
             conceptuales, no capturas ni métricas reales.
