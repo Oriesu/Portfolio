@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oriesu.netlify.app/sitemap.xml
