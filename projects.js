@@ -42,7 +42,7 @@ window.PORTFOLIO_PROJECTS = [
     number: '03',
     title: 'Wombo Combo',
     kicker: 'JUEGOS / APP Y WEB',
-    summary: 'Juego social para grupos disponible como aplicación móvil y versión web, con varios modos y partidas compartidas.',
+    summary: 'Juego social para grupos disponible como aplicación móvil y versión web, con varios modos ideales para fiestas.',
     tags: ['Android', 'Web', 'Juegos sociales'],
     ownership: 'autor',
     visibility: 'private',
