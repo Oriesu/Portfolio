@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111713" />
+    <meta name="description" content="Portfolio de Javi (@Oriesu). Desarrollo de software, herramientas para Linux, accesibilidad web, aplicaciones, webs corporativas y proyectos colaborativos." />
+    <meta property="og:title" content="Javi — Software, ideas y proyectos" />
+    <meta property="og:description" content="Proyectos de software, webs publicadas y colaboraciones de Javi / @Oriesu." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/avatar-oriesu-favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="projects.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Javi / Oriesu — Portfolio</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header" id="inicio">
+      <div class="container nav-shell">
+        <a class="brand" href="#inicio" aria-label="Javi, volver al inicio"><img class="brand-avatar" src="assets/avatar-oriesu.webp" alt="" width="46" height="46" decoding="async" /><span class="brand-divider"></span><span class="brand-text">oriesu<span class="brand-suffix">/portfolio</span></span></a>
+        <div class="nav-social-links">
+          <a class="nav-contact" href="https://linktr.ee/Oriesu" target="_blank" rel="noopener noreferrer" aria-label="Abrir Linktree de Oriesu">
+            <span class="contact-bubble" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></span>
+            <span>Mi Linktree</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a class="nav-contact" href="https://github.com/Oriesu" target="_blank" rel="noopener noreferrer" aria-label="Abrir perfil de GitHub de Oriesu">
+            <span class="contact-bubble" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.03c-3.1.68-3.75-1.32-3.75-1.32-.5-1.29-1.24-1.64-1.24-1.64-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.15 1.72 1.15 1 .1.8 2.14 3.08 1.52.2-.73.39-1.23.71-1.52-2.47-.28-5.06-1.24-5.06-5.51 0-1.22.43-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.15A10.8 10.8 0 0 1 12 6.7c.96 0 1.9.13 2.79.38 2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.96.71.78 1.15 1.78 1.15 3 0 4.28-2.6 5.22-5.08 5.5.4.35.76 1.03.76 2.09v2.61c0 .3.2.64.77.53A11.2 11.2 0 0 0 12 .8Z"/></svg></span>
+            <span>Mi GitHub</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a class="nav-contact" href="https://play.google.com/store/apps/developer?id=Oriesu" target="_blank" rel="noopener noreferrer" aria-label="Abrir perfil de desarrollador de Oriesu en Google Play">
+            <span class="contact-bubble" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.5 2.3c-.3.2-.5.7-.5 1.2v17c0 .5.2.9.5 1.2l10.2-9.7L4.5 2.3Zm11 8.9 2.8-2.6L6 1.7l9.5 9.5Zm0 1.6L6 22.3l12.3-6.9-2.8-2.6Zm3.5-3.4-2.8 2.6 2.8 2.6 2-1.1c1.3-.7 1.3-2.3 0-3l-2-1.1Z"/></svg></span>
+            <span>Mi Google Play</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menú"><span></span><span></span></button>
+      </div>
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Navegación móvil" hidden>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#enfoque">Mi enfoque</a>
+        <a href="https://github.com/Oriesu" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://linktr.ee/Oriesu" target="_blank" rel="noopener noreferrer">Linktree ↗</a>
+        <a href="https://play.google.com/store/apps/developer?id=Oriesu" target="_blank" rel="noopener noreferrer">Google Play ↗</a>
+      </nav>
+    </header>
+    <main id="contenido">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <div class="eyebrow hero-eyebrow"><span class="eyebrow-mark"></span>
+               SOFTWARE DEVELOPER <span class="eyebrow-sep">/</span> ESTUDIANTE DE INFORMÁTICA + ADE
+            </div>
+            <h1 id="hero-title">
+              Ideas que<br /><span>se convierten</span><br />en <em>software.</em>
+            </h1>
+            <p class="hero-description">
+              Hola, soy <strong>Javi</strong>. Me gusta convertir problemas complejos en productos, herramientas y experiencias que merecen la pena construir.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-lime" href="#proyectos">Explorar proyectos <span class="button-arrow" aria-hidden="true">↗</span></a>
+              <a class="button button-text" href="#sobre-mi">Conóceme <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-label="Ilustración abstracta de proyectos de desarrollo de software">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbit orbit-three"></div>
+            <div class="visual-star star-one">✳</div>
+            <div class="visual-star star-two">✦</div>
+            <div class="float-label float-label-one"><span class="mini-dot"></span> BUILDING THINGS</div>
+            <div class="terminal-card" aria-hidden="true">
+              <div class="terminal-header">
+                <span class="traffic-lights"><i></i><i></i><i></i></span>
+                <span>~/ideas/build.sh</span>
+                <span class="terminal-glyph">⌘</span>
+              </div>
+              <div class="terminal-body">
+                <div><span class="terminal-prompt">❯</span> whoami</div>
+                <p>javi <span class="terminal-comment">// aka @oriesu</span></p>
+                <div><span class="terminal-prompt">❯</span> ls ./intereses</div>
+                <p><span class="terminal-highlight">linux/</span> &nbsp; apps/ &nbsp; web/ &nbsp; ai/</p>
+                <div><span class="terminal-prompt">❯</span> npm run build:ideas</div>
+                <p class="terminal-success"><span>✓</span> Compilando posibilidades<span class="terminal-blink">_</span></p>
+              </div>
+            </div>
+            <div class="hero-sticker sticker-a">
+              <span class="sticker-main">&lt;/&gt;</span>
+              <span>CREATE<br />EVERY DAY</span>
+            </div>
+            <div class="hero-sticker sticker-b">
+              <span class="sticker-infinity">∞</span>
+              <span>KEEP<br />EXPLORING</span>
+            </div>
+            <div class="float-label float-label-two"><span class="mini-square"></span> 100% CURIOSIDAD</div>
+            <span class="visual-coordinate">X: 01. Y: 26.</span>
+          </div>
+        </div>
+        <div class="container hero-foot">
+          <span>INTRODUCCIÓN</span>
+          <a href="#proyectos">DESLIZA PARA EXPLORAR <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+      <section class="work-section section-pad" id="proyectos" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2 id="projects-title">Cosas que he<br /><em>construido.</em></h2>
+              <p>Software, webs publicadas y colaboraciones. Distintos problemas, una misma obsesión: hacer que las ideas funcionen.</p>
+            </div>
+          </div>
+          <div class="filter-bar">
+            <div class="filter-list" role="group" aria-label="Filtrar proyectos">
+              <button class="filter is-active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+              <button class="filter" type="button" data-filter="autor" aria-pressed="false">Como autor</button>
+              <button class="filter" type="button" data-filter="coautor" aria-pressed="false">Colaboraciones</button>
+              <button class="filter" type="button" data-filter="webs" aria-pressed="false">Webs</button>
+              <button class="filter" type="button" data-filter="publico" aria-pressed="false">Repos públicos</button>
+            </div>
+            <span class="results-count" id="results-count" aria-live="polite">6 proyectos</span>
+          </div>
+          <div class="projects-grid" id="projects-grid" aria-live="off"></div>
+          <p class="privacy-note"><span aria-hidden="true">ⓘ</span> 
+            Los repositorios privados no tienen enlace al código; las webs publicadas enlazan al sitio en vivo. Las vistas previas son ilustraciones 
+            conceptuales, no capturas ni métricas reales.
+          </p>
+        </div>
+      </section>
+      <section class="about-section section-pad" id="sobre-mi" aria-labelledby="about-title">
+        <div class="container about-layout">
+          <div class="about-left">
+            <div class="section-label light"><span class="section-line"></span> QUIÉN HAY DETRÁS</div>
+            <div class="about-symbol" aria-hidden="true"><img src="assets/avatar-oriesu.webp" alt="" width="280" height="280" decoding="async" /><span></span></div>
+            <div class="about-caption">DESARROLLADOR · CREADOR · CURIOSO</div>
+          </div>
+          <div class="about-right">
+            <h2 id="about-title">No me gusta<br />quedarme en el <em>«y si…»</em></h2>
+            <p>Estudio <strong>Ingeniería Informática y Administración y Dirección de Empresas</strong>. Esa mezcla me lleva a pensar tanto en cómo se construye un producto como en qué problema resuelve.</p>
+            <p>Me muevo entre el desarrollo de aplicaciones, sitios web, herramientas para Linux, accesibilidad digital, automatización y proyectos en equipo. Disfruto especialmente cuando una idea difícil acaba siendo algo sencillo de usar.</p>
+            <div class="about-pills">
+              <span>Ingeniería de software</span>
+              <span>Producto digital</span>
+              <span>Proyectos públicos</span>
+              <span>Aprendizaje continuo</span>
+            </div>
+            <div class="about-links">
+              <a class="about-link" href="https://github.com/Oriesu" target="_blank" rel="noopener noreferrer">
+                Explorar mi código <span aria-hidden="true">↗</span>
+              </a>
+              <a class="about-link" href="https://linktr.ee/Oriesu" target="_blank" rel="noopener noreferrer">
+                Ver mi Linktree <span aria-hidden="true">↗</span>
+              </a>
+              <a class="about-link" href="https://play.google.com/store/apps/developer?id=Oriesu" target="_blank" rel="noopener noreferrer">
+                Mis apps en Google Play <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="approach-section section-pad" id="enfoque" aria-labelledby="approach-title">
+        <div class="container">
+          <div class="stack-band">
+            <span>HERRAMIENTAS CON LAS QUE TRABAJO</span>
+            <div class="stack-items">
+              <span>Python</span>
+              <span>Flutter</span>
+              <span>TypeScript</span>
+              <span>HTML / CSS</span>
+              <span>JavaScript</span>
+              <span>Linux / XKB</span>
+              <span>Node.js</span>
+              <span>Playwright</span>
+              <span>Git</span>
+              <span>WCAG</span>
+              <span>...</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+        <div class="container contact-inner">
+          <div class="contact-top">
+            <span class="section-label"><span class="section-line"></span> LO SIGUIENTE</span>
+          </div>
+          <h2 id="contact-title">Hagamos que<br /><em>pase algo.</em><span class="contact-asterisk"></span></h2>
+          <div class="contact-bottom">
+            <p>Si tienes una idea, una propuesta o simplemente quieres compartir código, podemos empezar por ahí.</p>
+            <div class="contact-actions">
+              <a class="button button-dark" href="https://github.com/Oriesu" target="_blank" rel="noopener noreferrer">Encontrarme en GitHub <span class="button-arrow" aria-hidden="true">↗</span></a>
+              <a class="button button-dark" href="https://linktr.ee/Oriesu" target="_blank" rel="noopener noreferrer">Mi Linktree <span class="button-arrow" aria-hidden="true">↗</span></a>
+              <a class="button button-dark" href="https://play.google.com/store/apps/developer?id=Oriesu" target="_blank" rel="noopener noreferrer">Mis apps en Google Play <span class="button-arrow" aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>DISEÑADO CON CÓDIGO Y <svg class="coffee-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-label="café" role="img"><path d="M4 8h13v6a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V8ZM17 9h2a3 3 0 0 1 0 6h-2M8 2v3M12 2v3M16 2v3"/></svg></span>
+        <div class="footer-links">
+          <a href="https://github.com/Oriesu" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+          <a href="https://linktr.ee/Oriesu" target="_blank" rel="noopener noreferrer">LINKTREE ↗</a>
+          <a href="https://play.google.com/store/apps/developer?id=Oriesu" target="_blank" rel="noopener noreferrer">GOOGLE PLAY ↗</a>
+          <a href="#inicio">VOLVER ARRIBA ↑</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
